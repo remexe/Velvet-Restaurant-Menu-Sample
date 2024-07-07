@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url('Bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.menu-container {
+    background-color: rgba(0, 0, 0, 0.216);
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-item h2 {
+    color: #D9A84E;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.separator {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid goldenrod; /* Add a border bottom for the line */
+    padding-bottom: 5px; /* Adjust padding as needed */
+}
+
+.menu-content p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+   
+}
+
+.menu-content .price {
+    color: #D9A84E;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .menu-item h2 {
+        font-size: 20px;
+    }
+
+    .menu-content p {
+        font-size: 14px;
+    }
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    
+}
+footer {
+    text-align: center;
+}
